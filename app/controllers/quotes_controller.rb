@@ -1,4 +1,4 @@
 class QuotesController < ApplicationController
-  def infex
-  end
+  def index
+    @quote = Quote.order("RANDOM()").first
 end
