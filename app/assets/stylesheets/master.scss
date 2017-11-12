@@ -42,6 +42,7 @@
   font-weight: bold;
 }
 
+
 header {
   border-top: 9px solid #222222;
 }
@@ -51,14 +52,16 @@ hr {
 }
 
 h1 {
-  font-family: 'alex_brushregular', sans-serif;
+  font-family: 'sans-serif';
   font-weight: bold;
   font-size: 48px;
 }
+/*'alex_brushregular'*/
 
 h2 {
-  font-family: 'alex_brushregular', sans-serif;
+  font-family: 'sans-serif';
 }
+/*'alex_brushregular'*/
 
 .divider{
     width:5px;
@@ -68,9 +71,10 @@ h2 {
 
 .next-quote {
   color:#f84342;
-    font-family: 'alex_brushregular', sans-serif;
+    font-family: 'alex_brushregular';
   font-size:20px;
 }
+/*'alex_brushregular'*/
 
 .footer-blurb {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
