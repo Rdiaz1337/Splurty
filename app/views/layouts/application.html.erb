@@ -18,6 +18,8 @@
           you need
           <br />
           to code!
+          <br />
+          ^_^
         </div>
         <% end %>
       </div>
@@ -52,7 +54,7 @@
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <%= f.submit 'Create', class: 'btn btn-danger' %>
         </div>
-      <% end %>
+        <% end %>
         </div>
       </div>
     </div>
@@ -62,9 +64,9 @@
 
     <br class="clear" />
 
- <div class="container">
+    <div class="container">
       <%= yield %>
-    </div>
+      </div>
 
     <div class="footer">
       <div class="container">
@@ -72,14 +74,14 @@
     <div class="col-10 offset-1 alert alert-danger">
       <%= flash[:error].html_safe %>
     </div>
-  <% end %>
+      <% end %>
         <div class="row">
            <div class="col-12 col-sm-6">
-       <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+       <%= link_to "This isn't enough, I need more!", root_path, class: 'next-quote' %>
       </div>
       <div class="col-12 col-sm-6 footer-blurb">
-        Proudly hacked in Anaheim, CA by <a href="http://thefirehoseproject.com">Rafael</a><br />
-        Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+        Proudly hacked in Anaheim, CA by <a href="http://thefirehoseproject.com">Rafael</a>.<br />
+        Want to build your own Splurty Web App - <a href="http://thefirehoseproject.com">Learn how to code here!</a>
       </div>
 
         </div>
